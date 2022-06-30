@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		020272F6286AE69400663EDF /* Compass.png in Resources */ = {isa = PBXBuildFile; fileRef = 020272F5286AE69400663EDF /* Compass.png */; };
+		020272F9286AE73900663EDF /* Orbitron.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 020272F8286AE72B00663EDF /* Orbitron.ttf */; };
+		0224F6D0283D09010031FDDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0224F6CF283D09010031FDDD /* AppDelegate.swift */; };
+		0224F6D4283D09010031FDDD /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0224F6D3283D09010031FDDD /* GameViewController.swift */; };
+		0224F6D7283D09010031FDDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0224F6D5283D09010031FDDD /* Main.storyboard */; };
+		0224F6D9283D09020031FDDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0224F6D8283D09020031FDDD /* Assets.xcassets */; };
+		0224F6DC283D09020031FDDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0224F6DA283D09020031FDDD /* LaunchScreen.storyboard */; };
+		0224F6F8283D11C40031FDDD /* TyreNormal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0224F6EA283D11C20031FDDD /* TyreNormal.jpg */; };
+		0224F6FA283D11C40031FDDD /* landscapeMountains.scn in Resources */ = {isa = PBXBuildFile; fileRef = 0224F6EC283D11C30031FDDD /* landscapeMountains.scn */; };
+		0224F6FB283D11C40031FDDD /* marsSurface.png in Resources */ = {isa = PBXBuildFile; fileRef = 0224F6ED283D11C30031FDDD /* marsSurface.png */; };
+		0224F6FD283D11C40031FDDD /* marsNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = 0224F6EF283D11C40031FDDD /* marsNormal.png */; };
+		0224F6FE283D11C40031FDDD /* planetsMenu.scn in Resources */ = {isa = PBXBuildFile; fileRef = 0224F6F0283D11C40031FDDD /* planetsMenu.scn */; };
+		0224F6FF283D11C40031FDDD /* marsFloor.png in Resources */ = {isa = PBXBuildFile; fileRef = 0224F6F1283D11C40031FDDD /* marsFloor.png */; };
+		0224F700283D11C40031FDDD /* Tyre.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0224F6F2283D11C40031FDDD /* Tyre.jpeg */; };
+		0224F701283D11C40031FDDD /* mountain_Diffuse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0224F6F3283D11C40031FDDD /* mountain_Diffuse.jpg */; };
+		0224F702283D11C40031FDDD /* marsSurfaceNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = 0224F6F4283D11C40031FDDD /* marsSurfaceNormal.png */; };
+		0270564C286D91550003EC8C /* Vehicle.scn in Resources */ = {isa = PBXBuildFile; fileRef = 0270564B286D91550003EC8C /* Vehicle.scn */; };
+		02A34FD2286D8008008DCB9D /* Olympus_Mons.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 02A34FD1286D8008008DCB9D /* Olympus_Mons.jpeg */; };
+		02A34FD4286D8036008DCB9D /* Olympus_Mons.scn in Resources */ = {isa = PBXBuildFile; fileRef = 02A34FD3286D8036008DCB9D /* Olympus_Mons.scn */; };
+		02A34FD8286D87FD008DCB9D /* mountain_Normal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 02A34FD7286D87FD008DCB9D /* mountain_Normal.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		020272F5286AE69400663EDF /* Compass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Compass.png; path = ../../../Compass.png; sourceTree = "<group>"; };
+		020272F8286AE72B00663EDF /* Orbitron.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Orbitron.ttf; sourceTree = "<group>"; };
+		020272FA286AE81F00663EDF /* Mars-Curiosity-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Mars-Curiosity-Info.plist"; sourceTree = SOURCE_ROOT; };
+		0224F6CC283D09010031FDDD /* Mars Curiosity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mars Curiosity.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0224F6CF283D09010031FDDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0224F6D3283D09010031FDDD /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		0224F6D6283D09010031FDDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0224F6D8283D09020031FDDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0224F6DB283D09020031FDDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0224F6EA283D11C20031FDDD /* TyreNormal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TyreNormal.jpg; sourceTree = "<group>"; };
+		0224F6EC283D11C30031FDDD /* landscapeMountains.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = landscapeMountains.scn; sourceTree = "<group>"; };
+		0224F6ED283D11C30031FDDD /* marsSurface.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marsSurface.png; sourceTree = "<group>"; };
+		0224F6EF283D11C40031FDDD /* marsNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marsNormal.png; sourceTree = "<group>"; };
+		0224F6F0283D11C40031FDDD /* planetsMenu.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = planetsMenu.scn; sourceTree = "<group>"; };
+		0224F6F1283D11C40031FDDD /* marsFloor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marsFloor.png; sourceTree = "<group>"; };
+		0224F6F2283D11C40031FDDD /* Tyre.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tyre.jpeg; sourceTree = "<group>"; };
+		0224F6F3283D11C40031FDDD /* mountain_Diffuse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mountain_Diffuse.jpg; sourceTree = "<group>"; };
+		0224F6F4283D11C40031FDDD /* marsSurfaceNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marsSurfaceNormal.png; sourceTree = "<group>"; };
+		0270564B286D91550003EC8C /* Vehicle.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Vehicle.scn; sourceTree = "<group>"; };
+		02A34FD1286D8008008DCB9D /* Olympus_Mons.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Olympus_Mons.jpeg; sourceTree = "<group>"; };
+		02A34FD3286D8036008DCB9D /* Olympus_Mons.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Olympus_Mons.scn; sourceTree = "<group>"; };
+		02A34FD7286D87FD008DCB9D /* mountain_Normal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mountain_Normal.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0224F6C9283D09010031FDDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		020272F7286AE6F500663EDF /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				020272F8286AE72B00663EDF /* Orbitron.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		0224F6C3283D09010031FDDD = {
+			isa = PBXGroup;
+			children = (
+				0224F6CE283D09010031FDDD /* Mars Curiosity */,
+				0224F6CD283D09010031FDDD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0224F6CD283D09010031FDDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0224F6CC283D09010031FDDD /* Mars Curiosity.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0224F6CE283D09010031FDDD /* Mars Curiosity */ = {
+			isa = PBXGroup;
+			children = (
+				020272FA286AE81F00663EDF /* Mars-Curiosity-Info.plist */,
+				020272F7286AE6F500663EDF /* Fonts */,
+				0224F6E2283D119A0031FDDD /* artAssets */,
+				0224F6CF283D09010031FDDD /* AppDelegate.swift */,
+				0224F6D3283D09010031FDDD /* GameViewController.swift */,
+				0224F6D5283D09010031FDDD /* Main.storyboard */,
+				0224F6D8283D09020031FDDD /* Assets.xcassets */,
+				0224F6DA283D09020031FDDD /* LaunchScreen.storyboard */,
+			);
+			path = "Mars Curiosity";
+			sourceTree = "<group>";
+		};
+		0224F6E2283D119A0031FDDD /* artAssets */ = {
+			isa = PBXGroup;
+			children = (
+				020272F5286AE69400663EDF /* Compass.png */,
+				02FD1235286C931F00572024 /* Landscapes */,
+				02933AD6286C1752006561BB /* Vehicles */,
+				02A34FD5286D8767008DCB9D /* Planets Menu */,
+			);
+			path = artAssets;
+			sourceTree = "<group>";
+		};
+		02933AD6286C1752006561BB /* Vehicles */ = {
+			isa = PBXGroup;
+			children = (
+				0270564B286D91550003EC8C /* Vehicle.scn */,
+				0224F6F2283D11C40031FDDD /* Tyre.jpeg */,
+				0224F6EA283D11C20031FDDD /* TyreNormal.jpg */,
+			);
+			path = Vehicles;
+			sourceTree = "<group>";
+		};
+		02A34FD5286D8767008DCB9D /* Planets Menu */ = {
+			isa = PBXGroup;
+			children = (
+				0224F6F0283D11C40031FDDD /* planetsMenu.scn */,
+				0224F6F1283D11C40031FDDD /* marsFloor.png */,
+				0224F6EF283D11C40031FDDD /* marsNormal.png */,
+				0224F6ED283D11C30031FDDD /* marsSurface.png */,
+				0224F6F4283D11C40031FDDD /* marsSurfaceNormal.png */,
+			);
+			path = "Planets Menu";
+			sourceTree = "<group>";
+		};
+		02A34FD6286D8789008DCB9D /* landscapeMountains */ = {
+			isa = PBXGroup;
+			children = (
+				0224F6EC283D11C30031FDDD /* landscapeMountains.scn */,
+				02A34FD7286D87FD008DCB9D /* mountain_Normal.jpg */,
+				0224F6F3283D11C40031FDDD /* mountain_Diffuse.jpg */,
+			);
+			path = landscapeMountains;
+			sourceTree = "<group>";
+		};
+		02A34FD9286D8808008DCB9D /* Olympus_Mons */ = {
+			isa = PBXGroup;
+			children = (
+				02A34FD3286D8036008DCB9D /* Olympus_Mons.scn */,
+				02A34FD1286D8008008DCB9D /* Olympus_Mons.jpeg */,
+			);
+			path = Olympus_Mons;
+			sourceTree = "<group>";
+		};
+		02FD1235286C931F00572024 /* Landscapes */ = {
+			isa = PBXGroup;
+			children = (
+				02A34FD6286D8789008DCB9D /* landscapeMountains */,
+				02A34FD9286D8808008DCB9D /* Olympus_Mons */,
+			);
+			path = Landscapes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0224F6CB283D09010031FDDD /* Mars Curiosity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0224F6DF283D09020031FDDD /* Build configuration list for PBXNativeTarget "Mars Curiosity" */;
+			buildPhases = (
+				0224F6C8283D09010031FDDD /* Sources */,
+				0224F6C9283D09010031FDDD /* Frameworks */,
+				0224F6CA283D09010031FDDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mars Curiosity";
+			productName = "Mars Curiosity";
+			productReference = 0224F6CC283D09010031FDDD /* Mars Curiosity.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0224F6C4283D09010031FDDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					0224F6CB283D09010031FDDD = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = 0224F6C7283D09010031FDDD /* Build configuration list for PBXProject "Mars Curiosity" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0224F6C3283D09010031FDDD;
+			productRefGroup = 0224F6CD283D09010031FDDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0224F6CB283D09010031FDDD /* Mars Curiosity */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0224F6CA283D09010031FDDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				020272F6286AE69400663EDF /* Compass.png in Resources */,
+				02A34FD2286D8008008DCB9D /* Olympus_Mons.jpeg in Resources */,
+				0224F700283D11C40031FDDD /* Tyre.jpeg in Resources */,
+				0224F702283D11C40031FDDD /* marsSurfaceNormal.png in Resources */,
+				0224F6FA283D11C40031FDDD /* landscapeMountains.scn in Resources */,
+				0224F6DC283D09020031FDDD /* LaunchScreen.storyboard in Resources */,
+				02A34FD8286D87FD008DCB9D /* mountain_Normal.jpg in Resources */,
+				0224F6D9283D09020031FDDD /* Assets.xcassets in Resources */,
+				020272F9286AE73900663EDF /* Orbitron.ttf in Resources */,
+				0224F6FF283D11C40031FDDD /* marsFloor.png in Resources */,
+				0224F701283D11C40031FDDD /* mountain_Diffuse.jpg in Resources */,
+				0270564C286D91550003EC8C /* Vehicle.scn in Resources */,
+				0224F6F8283D11C40031FDDD /* TyreNormal.jpg in Resources */,
+				0224F6FB283D11C40031FDDD /* marsSurface.png in Resources */,
+				0224F6D7283D09010031FDDD /* Main.storyboard in Resources */,
+				0224F6FE283D11C40031FDDD /* planetsMenu.scn in Resources */,
+				0224F6FD283D11C40031FDDD /* marsNormal.png in Resources */,
+				02A34FD4286D8036008DCB9D /* Olympus_Mons.scn in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0224F6C8283D09010031FDDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0224F6D4283D09010031FDDD /* GameViewController.swift in Sources */,
+				0224F6D0283D09010031FDDD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0224F6D5283D09010031FDDD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0224F6D6283D09010031FDDD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0224F6DA283D09020031FDDD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0224F6DB283D09020031FDDD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0224F6DD283D09020031FDDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0224F6DE283D09020031FDDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0224F6E0283D09020031FDDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JPCJ237NQ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Mars-Curiosity-Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Qb.Mars-Curiosity";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0224F6E1283D09020031FDDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JPCJ237NQ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Mars-Curiosity-Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Qb.Mars-Curiosity";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0224F6C7283D09010031FDDD /* Build configuration list for PBXProject "Mars Curiosity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0224F6DD283D09020031FDDD /* Debug */,
+				0224F6DE283D09020031FDDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0224F6DF283D09020031FDDD /* Build configuration list for PBXNativeTarget "Mars Curiosity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0224F6E0283D09020031FDDD /* Debug */,
+				0224F6E1283D09020031FDDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0224F6C4283D09010031FDDD /* Project object */;
+}
